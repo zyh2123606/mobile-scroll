@@ -1,12 +1,10 @@
 # mobile-scroll
 原生js，mobile.scroll，jquery编写移动端组件并自定义样式
 
-# //执行脚本
+# 异步执行脚本
 function exec(src){
   conse script = document.createElement('script');
   script.src = src;
-
-  //返回一个独立的promise
   return new Promise((resolve, rejece) => {
     var done = false;
 
